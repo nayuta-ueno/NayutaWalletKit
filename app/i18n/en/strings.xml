@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
   <string name="not_recognized">not recognized</string>
-  <string name="game_terms">{title}\n\nis wanting to connect with Nayuta\n\nand is requesting permission to charge up to {max_amount} satoshis without confirmation</string>
+  <string name="game_terms">{title}\n\nis wanting to connect with Ueno\n\nand is requesting permission to charge up to {max_amount} satoshis without confirmation</string>
   <string name="game_start_button">connect</string>
   <string name="already_uploading">upload already in progress</string>
   <string name="label_send_all_check">are you sure you want to send all your funds to address {address}?</string>
@@ -26,7 +26,7 @@
   <string name="google_drive_linked">google drive linked! the app will now try and back up your channels for you in the background</string>
   <string name="google_drive_error">error uploading, please try to relink and check your google account settings</string>
   <string name="channels_backup_title_email">Channel backup</string>
-  <string name="channels_backup_description_email">In the event that you have lost your device or there is a device error you can use the attached file to restore lost funds during a new installation of the Nayuta app</string>
+  <string name="channels_backup_description_email">In the event that you have lost your device or there is a device error you can use the attached file to restore lost funds during a new installation of the Ueno app</string>
   <string name="not_enough_space">Your device does not have enough disk space to use the wallet, please free some space up and reload the app to try again</string>
   <string name="error_api">Unable to connect to API</string>
   <string name="error_api_description">check your internet connection and reload the app to try again, or continue with limited functionality</string>
@@ -58,7 +58,7 @@
   <string name="label_chain">chain</string>
   <string name="deposit">deposit</string>
   <string name="deposit_help">funds to the address below and the wallet will load them into the lightning network behind the scenes\n\nit may take some time to do this\nso check out the channels section to open your own channels</string>
-  <string name="channels_help">channels are used to connect your funds to the lightning network\n\nby default the wallet will manage this for you but you can also manually open channels\n\nthe easiest way to get started is to 'connect to Nayuta hub' which will link you to most of the lightning network </string>
+  <string name="channels_help">channels are used to connect your funds to the lightning network\n\nby default the wallet will manage this for you but you can also manually open channels\n\nthe easiest way to get started is to 'connect to Ueno hub' which will link you to most of the lightning network </string>
   <string name="online">online</string>
   <string name="offline">offline</string>
   <string name="closing">closing</string>
@@ -76,7 +76,7 @@
   <string name="label_settings_autopilot_description">enable/disable auto pilot for automatic channel management</string>
 
   <string name="hops">hops</string>
-  <string name="connect_Nayuta_hub">connect to Nayuta hub</string>
+  <string name="connect_Nayuta_hub">connect to Ueno hub</string>
   <string name="generate_deposit">generate deposit address</string>
   <string name="enter_payment_amount_sat">enter amount in sats</string>
 
@@ -148,7 +148,7 @@
   <string name="label_settings_connect_btcpay_lnd_description">connect to your remote BTCPay or LND instance</string>
   <string name="language">en</string>
   <string name="label_or">or</string>
-  <string name="appname">Nayuta</string>
+  <string name="appname">Ueno Wallet</string>
 
 
   <string name="channels_funds_option">deposit/channels</string>
@@ -385,7 +385,7 @@
   <string name="set_fee_limit_desc">set a fee limit of {feeLimitPercentage}% to lightning transactions</string> 
   <string name="sendall_amount">send all of your funds \n to \n {address}</string> 
   <string name="orbot_text1">You need to download and run the orbot app to connect via tor</string>
-  <string name="orbot_text2">After downloading you must enable VPN Mode and select the Nayuta App</string>
+  <string name="orbot_text2">After downloading you must enable VPN Mode and select the Ueno App</string>
   <string name="orbot_download">download</string>
   <string name="give_feedback">give feedback</string> 
   <string name="tor_not_ios">TOR not supported on iOS</string>
@@ -404,7 +404,7 @@
   <string name="utxo_set_title">download a UTXO set</string>
   <string name="utxo_set_desc">syncing takes a long time on mobile so you can download a pre synced utxo set from your PC via google drive or a direct USB connection</string>
   <string name="utxo_set_2_title">instructions</string>
-  <string name="utxo_set_2_desc">1. zip up your 'blocks' and 'chainstate' directorys into a folder called 'mainnet.zip' and run a sha256 checksum on this file\n\n2. drop this zip folder into a folder on your google drive called 'NayutaWallet'\n\n3. after the the file has been downloaded and unzipped you can start bitcoin core on the previous page!\n\nnote:you can also just copy the folders directly into this apps directory using android file transfer </string>
+  <string name="utxo_set_2_desc">1. zip up your 'blocks' and 'chainstate' directorys into a folder called 'mainnet.zip' and run a sha256 checksum on this file\n\n2. drop this zip folder into a folder on your google drive called 'UenoWallet'\n\n3. after the the file has been downloaded and unzipped you can start bitcoin core on the previous page!\n\nnote:you can also just copy the folders directly into this apps directory using android file transfer </string>
   <string name="full_guide">click here for a more in depth guide</string>
   <string name="calculating_checksum">calculating checksum...</string>
   <string name="check_sum_desc">please check the checksum below matches the one you calculated before uploading</string>
@@ -419,7 +419,7 @@
   <string name="please_wait_for_sync">please wait for synchronization to finish</string>
   <string name="use_passcode">use passcode?</string>
   <string name="use_wifi">It is recommended that you use wifi to download</string>
-  <string name="fork_detected">bitcoin fork detected, we recommened you do not receive or send payments as they will be invalidated, please contact support@nayuta.co</string>
+  <string name="fork_detected">bitcoin fork detected, we recommened you do not receive or send payments as they will be invalidated, please contact support@ueno.co</string>
   <string name="sync_mode_description">set the bitcoin node to try and sync...</string>
   <string name="wallet_mode_description">set the lightning wallet to use</string>
   <string name="lite_mode_description">when on wifi/charging</string>

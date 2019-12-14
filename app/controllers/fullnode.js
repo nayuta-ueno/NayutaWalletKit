@@ -12,6 +12,8 @@ resetFullnodeUI();
 
 if (globals.fullNodeController == undefined) {
   globals.fullNodeController = require("/requires/fullnode_controller");
+} else {
+  closeIntro();
 }
 var config = globals.fullNodeController.getBitcoinConf();
 var oldConf = globals.fullNodeController.readConf();

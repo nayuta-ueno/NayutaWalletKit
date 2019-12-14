@@ -221,9 +221,9 @@ if (minutesDiff < 2) {
     "/" +
     date.getDate() +
     " - " +
-    date.getHours() +
+    ('00' + date.getHours()).slice(-2) +
     ":" +
-    date.getMinutes();
+    ('00' + date.getMinutes()).slice(-2);
 }
 if (hops != "") {
   $.date.text = $.date.text + "\n" + hops;

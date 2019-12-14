@@ -138,10 +138,10 @@ function setLastBackUp() {
       "/" +
       date.getDate() +
       " - " +
-      date.getHours() +
+      ('00' + date.getHours()).slice(-2) +
       ":" +
-      date.getMinutes();
-  }
+      ('00' + date.getMinutes()).slice(-2);
+    }
 }
 
 $.unLinkButton.hide();

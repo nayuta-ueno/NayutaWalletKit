@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ti:app xmlns:ti="http://ti.appcelerator.org">
     <id>co.ueno.wallet</id>
-    <name>ueno wallet</name>
+    <name>ueno_wallet</name>
     <version>1</version>
     <publisher>ueno</publisher>
     <url>https://127.0.0.1/</url>

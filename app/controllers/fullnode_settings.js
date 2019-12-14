@@ -3,9 +3,21 @@ function close() {
 }
 
 function deleteData() {
-  globals.fullNodeController.deleteCore();
-  alert("deleted");
-  globals.resetFullnodeUI();
+  var dialog = globals.util.createDialog({
+    title: L(""),
+    message: L("core_delete"),
+    buttonNames: [L("core_delete"), L("label_cancel")],
+    cancel: 1
+  });
+  dialog.addEventListener("click", function (e) {
+    if (e.index != e.source.cancel) {
+      globals.fullNodeController.deleteCore();
+      alert(L("label_done"));
+      globals.resetFullnodeUI();
+    }
+  });
+  dialog.show();
+
 }
 
 function goToConfig() {
@@ -40,6 +52,19 @@ function goToDownloadUTXOPage(){
 }
 
 function reindex(){
-  globals.reindex();
-  $.win.close();
+  var dialog = globals.util.createDialog({
+    title: L(""),
+    message: L("label_reindex"),
+    buttonNames: [L("label_reindex"), L("label_cancel")],
+    cancel: 1
+  });
+  dialog.addEventListener("click", function (e) {
+    if (e.index != e.source.cancel) {
+      globals.reindex();
+      alert(L("label_done"));
+      globals.resetFullnodeUI();
+    }
+  });
+  dialog.show();
+
 }

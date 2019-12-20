@@ -138,7 +138,7 @@ function checkAllCorrect() {
 }
 
 if (Alloy.CFG.isDevelopment != true) {
-  $.skip.hide();
+  //$.skip.hide();
 }
 
 function continueNext() { 
@@ -160,7 +160,19 @@ function continueNext() {
 }
 
 function skip() {
-  continueNext();
+  var dialog = globals.util.createDialog({
+    title: L(""),
+    message: L("label_intro_skip"),
+    buttonNames: [L("label_intro_skip"), L("label_cancel")],
+    cancel: 1
+  });
+  dialog.addEventListener("click", function (e) {
+    if (e.index != e.source.cancel) {
+      continueNext();
+    }
+  });
+  dialog.show();
+
 }
 
 if (OS_ANDROID) {

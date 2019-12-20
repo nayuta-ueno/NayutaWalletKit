@@ -84,14 +84,14 @@
                </View>
 
 
-                  <!-- View class="option" id="fullnode" onClick="openFullNode" platform="android">
+                  <View class="option" id="fullnode" onClick="openFullNode" platform="android">
                   <View class="optionBackground" />
                   <View class="optionLabels">
                      <Label class="optionLabel">L('fullnode')</Label>
                      <Label class="optionDescription">L('fullnode_description')</Label>
                   </View>
                   <ImageView class="optionButton" image="/images/full_node_icon.png"/>
-               </View -->
+               </View>
 
 
 			   <!-- View class="option" id="signOut" onClick="signOut">

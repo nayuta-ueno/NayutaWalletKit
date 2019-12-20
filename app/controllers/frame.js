@@ -190,7 +190,7 @@ function startLoadFromCache() {
             clearInterval(checkProgress);
             checkProgress = null;
             checkProgress = setInterval(function () {
-              globals.console.log("checking progress");
+              globals.console.log("checking frame progress..");
               globals.fullNodeController.getBlockchainInfo();
             }, 5000);
           } else if (response.response == "starting") {

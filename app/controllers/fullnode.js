@@ -66,7 +66,7 @@ globals.fullNodeController.setUp(config, function (response) {
 
     if (progressInterval == null) {
       progressInterval = setInterval(function () {
-        globals.console.log("checking progress");
+        globals.console.log("checking fullnode progress");
         globals.fullNodeController.getBlockchainInfo();
       }, 8000);
     }

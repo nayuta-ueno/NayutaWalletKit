@@ -149,7 +149,7 @@ module.exports = (function () {
     clearInterval(progressInterval);
     progressInterval = null;
     progressInterval = setInterval(function () {
-      globals.console.log("checking progress");
+      globals.console.log("checking fullctrl progress");
       globals.fullNodeController.getBlockchainInfo();
     }, 8000);
 

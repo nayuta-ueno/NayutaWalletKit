@@ -11,7 +11,7 @@
 // Alloy.Globals.someGlobalFunction = function(){};
 
 Alloy.Globals = { 
-  copyright: '© 2019 Nayuta',
+  copyright: '© 2019 Ueno.AlloyGlobals',
   defaultExpiry :10,
   recoveryWindow :250, 
   slowFee:100,

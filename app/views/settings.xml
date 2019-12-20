@@ -101,7 +101,7 @@
                      <Label class="optionDescription">dev only</Label>
                   </View>
                   <ImageView class="optionButton"  image="/images/signOutIcon.png"/>
-               </View-->
+               </View -->
 
   
 					<Label id="version" class="size10 gray description" />

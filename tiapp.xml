@@ -210,10 +210,10 @@
     <property name="googleClientID{REMOVETHIS}" type="string">ClientID</property>
     <property name="googleClientIDDev{REMOVETHIS}" type="string">ClientIDDev</property>
     <!--custom urls for alternative api-->
-    <property name="useAlternativeAPI" type="bool">false</property>
+    <property name="useAlternativeAPI" type="bool">true</property>
     <property name="altPublicKeyTestnet" type="string">02d39b72e7869181912e0c1461c7aaba390c5a07ceb3d2c2a2b22d9ad0fa0933ea</property>
     <property name="altPublicKeyMainnet" type="string">02d39b72e7869181912e0c1461c7aaba390c5a07ceb3d2c2a2b22d9ad0fa0933ea</property>
-    <property name="altPeerTestnet" type="string">btcd-testnet.lightning.computer</property>
+    <property name="altPeerTestnet" type="string">faucet.japanwest.cloudapp.azure.com</property>
     <property name="altPeerMainnet" type="string">btcd-mainnet.lightning.computer</property>
     <property name="altFeeUrlTestnet" type="string">https://nodes.lightning.computer/fees/v1/btctestnet-fee-estimates.json</property>
     <property name="altFeeUrlMainnet" type="string">https://nodes.lightning.computer/fees/v1/btc-fee-estimates.json</property>
